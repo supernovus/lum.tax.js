@@ -1,0 +1,28 @@
+{
+  "name": "@lumjs/tax",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports":
+  {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.tax.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.12.1"
+  },
+  "devDependencies":
+  {
+    "@lumjs/tests": "^1.8.1"
+  },
+  "scripts":
+  {
+    "test": "lumtest.js",
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
