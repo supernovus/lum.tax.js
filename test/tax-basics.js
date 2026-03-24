@@ -1,6 +1,8 @@
+import Tests from '@lumjs/tests';
+import { Tax } from '../lib/tax.js';
+
 const plan = 4;
-const t = require('@lumjs/tests').new({module, plan});
-const Tax = require('../index');
+const t = Tests.new({module: import.meta, plan});
 
 const TR = [0.05, 0.07];
 const wantC = [112, 12, 5, 7];
@@ -21,3 +23,5 @@ res = tax.extractTaxes(112);
 t.isJSON(res, wantE, 'extractTaxes instance call');
 
 t.done();
+
+export default t;
