@@ -24,6 +24,6 @@
   "scripts":
   {
     "test": "lumtest.js",
-    "build-docs": "jsdoc -c ./jsdoc.js"
+    "build-docs": "jsdoc -c ./jsdoc.cjs"
   }
 }
