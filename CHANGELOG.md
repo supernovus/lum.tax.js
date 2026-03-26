@@ -6,13 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.0.0] - 2026-03-24
+## [2.0.0] - 2026-03-26
 ### Changed
 - Overhauled the entire library.
 - The whole thing is now written using ESM.
 - It has zero runtime dependencies.
 - Added a bunch of interest calculation functions.
 - Yeah now that this does more than taxes the name is an anachronism; Ah well.
+- Changed how percentages are specified by default (now 7.1% is `7.1`).
+  - The old decimal format (`0.071`) is still available as an option.
 
 ## [1.0.0] - 2023-04-03
 ### Added
